@@ -1,0 +1,18 @@
+{
+    "name": "humble/http",
+    "description": "HUMBLE HTTP",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "psr/http-message": "^1.0",
+        "humble/standards": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Humble\\Http\\": "./src"
+        }
+    }
+}

@@ -4,7 +4,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![Build Status](https://api.travis-ci.org/humblephp/humble-http.svg?branch=master)](https://travis-ci.org/humblephp/humble-http)
 
-HUMBLE HTTP
+HUMBLE HTTP Message
 
 ## Install
 

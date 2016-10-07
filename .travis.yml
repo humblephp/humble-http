@@ -12,6 +12,4 @@ before_script:
   - composer install --prefer-source
 
 script:
-  - ./vendor/bin/phpcs ./src --extensions=php --standard=./vendor/humble/standards/ruleset/phpcs.xml
-  - ./vendor/bin/phpmd ./src text ./vendor/humble/standards/ruleset/phpmd.xml
   - ./vendor/bin/phpunit --coverage-text
